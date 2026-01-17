@@ -74,3 +74,31 @@ h1 span{
        color: lightgreen;
 }
 
+.card-section{
+   padding: 60px 0px;
+   text-align: center;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    padding: 0 50px;
+    justify-content: center;
+}
+.card{
+    background-color:aliceblue;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+}
+
+
+.icon{
+    background-color:rgb(255, 0, 85);
+    background-color:rgb(255, 0, 85);
+    margin: 0 auto 10px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
