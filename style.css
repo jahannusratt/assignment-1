@@ -1,0 +1,59 @@
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
+    background-color: #fff;
+    border-bottom: 1px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+ nav li:hover{
+    background-color: beige;
+
+ }
+
+
+
+.logo{
+    gap:12px;
+    padding:0;
+    display:flex;
+    align-items: center;
+    
+}
+.logo-icon{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-small{
+    font-size: 10px;
+   
+    white-space: nowrap;
+}
+
+.nav-button{
+    background-color: green;
+    font-weight: bold;
+    color: green;
+    font-style: normal;
+    flex-direction: column;
+
+}
+
+.nav-button:hover{
+    background-color: black;
+}
