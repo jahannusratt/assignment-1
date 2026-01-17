@@ -39,3 +39,38 @@
     background-color: grey;
 }
 
+
+
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    background:url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     color: bisque;
+
+}
+
+.btn{
+    background-color:lightgreen;
+    border: none;
+    padding: 20px 40px;
+    border radius: 20px;
+    font size:22px;
+    font-weight:bold;
+    color:black;
+    cursor: pointer;
+}
+.btn:hover{
+         background-color:grey;
+}
+
+h1 span{
+       color: lightgreen;
+}
+
