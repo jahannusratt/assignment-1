@@ -24,6 +24,9 @@
     color: black;
     font-weight: 400px;
 }
+.nav ul li a:hover{
+    background-color: gray;
+}
 
 .button{
          padding: 8px 16px;
@@ -101,4 +104,63 @@ h1 span{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+.solution-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 5%;
+}
+
+.solution-text h2{
+    font-size: 26px;
+    margin: 10px 0px;
+    color: black;
+
+}
+
+.solution-text p{
+    color: blue;
+    margin-bottom: 18px;
+    line-height: 1.5;
+    
+}
+
+
+.solution-image img{
+    width: 100%;
+    max-width:350px;
+    height:auto;
+}
+
+.list li{
+    margin-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 20px;
+    color: black;
+}
+.list{
+    list-style: none;
+    padding:0px;
+   
+    
+}
+
+.list li::before{
+    content:"\2713";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color:seagreen;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
